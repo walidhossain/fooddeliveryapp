@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - ImageSlideshow (1.9.1):
+    - ImageSlideshow/Core (= 1.9.1)
+  - ImageSlideshow/Alamofire (1.9.1):
+    - AlamofireImage (~> 4.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.9.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya-ObjectMapper (2.9):
+    - Moya-ObjectMapper/Core (= 2.9)
+  - Moya-ObjectMapper/Core (2.9):
+    - Moya (~> 14.0.0-beta.6)
+    - ObjectMapper
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - ObjectMapper (4.2.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.9.3):
+    - SDWebImage/Core (= 5.9.3)
+  - SDWebImage/Core (5.9.3)
+
+DEPENDENCIES:
+  - ImageSlideshow
+  - ImageSlideshow/Alamofire
+  - Moya-ObjectMapper
+  - Moya/RxSwift
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - ImageSlideshow
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Moya-ObjectMapper: 967a99d9ea3aa9c93ddbe112aeca3667f53bfe93
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: a31ee8e90a97303529e03fb0c333eae0eacb88e9
+
+PODFILE CHECKSUM: a63c04e8c0495abb1272ad8bc03150c9efaaf07f
+
+COCOAPODS: 1.9.3
